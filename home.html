@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Republic Gaming - Información del servidor Clone Wars RP">
+    <title>Inicio - Republic Gaming | Clone Wars RP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="republic-logo">
+                <img src="assets/republicrppng.png" alt="Republic Gaming Logo" class="logo-spin">
+            </div>
+            <div class="loading-text">CARGANDO REPUBLIC GAMING...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-overlay">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="assets/starwars.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+        <div class="video-gradient"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/republicrppng.png" alt="Republic Gaming" class="nav-logo-img">
+                <span class="nav-logo-text">REPUBLIC GAMING</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link active">INICIO</a></li>
+                <li><a href="aboutus.html" class="nav-link">SOBRE NOSOTROS</a></li>
+                <li><a href="staff.html" class="nav-link">STAFF</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content-page">
+        <div class="page-container">
+            <div class="discord-section fade-in">
+                <h2 class="section-title">ÚNETE A NUESTRA COMUNIDAD</h2>
+                <p class="section-description">
+                    Conecta con más de 500 jugadores activos en nuestro servidor de Discord
+                </p>
+                <div class="discord-widget">
+                    <iframe src="https://discord.com/widget?id=1050055548403466271&theme=dark" 
+                            width="350" 
+                            height="500" 
+                            allowtransparency="true" 
+                            frameborder="0" 
+                            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="features-section fade-in">
+                <h2 class="section-title">CARACTERÍSTICAS DEL SERVIDOR</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚔️</div>
+                        <h3>CLONE WARS RP</h3>
+                        <p>Sistema de combate dinámico y equilibrado</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏛️</div>
+                        <h3>3 FACTIONES</h3>
+                        <p>República, Separatistas e Independientes</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>MISIONES</h3>
+                        <p>Eventos diarios y misiones especiales</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>ECONOMÍA</h3>
+                        <p>Sistema económico completo y mercado</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="server-info fade-in">
+                <h2 class="section-title">INFORMACIÓN DEL SERVIDOR</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">IP del Servidor:</span>
+                        <span class="info-value">republicgaming.com:27015</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Versión:</span>
+                        <span class="info-value">Clone Wars RP v2.0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Slots:</span>
+                        <span class="info-value">128 jugadores</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Ubicación:</span>
+                        <span class="info-value">España (Madrid)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Republic Gaming. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Términos</a>
+                <a href="#" class="footer-link">Privacidad</a>
+                <a href="https://discord.gg/kkKsdqJczx" class="footer-link" target="_blank">Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

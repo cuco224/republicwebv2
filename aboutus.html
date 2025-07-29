@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Republic Gaming - Sobre nosotros y nuestra misión">
+    <title>Sobre Nosotros - Republic Gaming | Clone Wars RP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="republic-logo">
+                <img src="assets/republicrppng.png" alt="Republic Gaming Logo" class="logo-spin">
+            </div>
+            <div class="loading-text">CARGANDO REPUBLIC GAMING...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-overlay">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="assets/starwars.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+        <div class="video-gradient"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/republicrppng.png" alt="Republic Gaming" class="nav-logo-img">
+                <span class="nav-logo-text">REPUBLIC GAMING</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">INICIO</a></li>
+                <li><a href="aboutus.html" class="nav-link active">SOBRE NOSOTROS</a></li>
+                <li><a href="staff.html" class="nav-link">STAFF</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content-page">
+        <div class="page-container">
+            <div class="about-hero fade-in">
+                <h1 class="section-title">SOBRE REPUBLIC GAMING</h1>
+                <p class="section-description">
+                    Somos un servidor español de Clone Wars Roleplay con PVP LIBRE, 
+                    donde podrás elegir entre 3 facciones distintas y vivir la experiencia definitiva del universo Star Wars.
+                </p>
+            </div>
+
+            <div class="factions-section fade-in">
+                <h2 class="section-title">LAS TRES GRANDES FACIONES</h2>
+                <div class="factions-grid">
+                    <div class="faction-card-detail republic">
+                        <div class="faction-header">
+                            <div class="faction-emblem">⚡</div>
+                            <h3>REPÚBLICA GALÁCTICA</h3>
+                        </div>
+                        <p>
+                            Defiende la democracia y la justicia en toda la galaxia. 
+                            Como soldado clon o ciudadano de la República, lucharás 
+                            por mantener el orden y la paz.
+                        </p>
+                        <ul class="faction-features">
+                            <li>Ejército clon organizado</li>
+                            <li>Tecnología avanzada</li>
+                            <li>Misiones de defensa</li>
+                        </ul>
+                    </div>
+
+                    <div class="faction-card-detail separatist">
+                        <div class="faction-header">
+                            <div class="faction-emblem">🤖</div>
+                            <h3>CONFEDERACIÓN DE SISTEMAS INDEPENDIENTES</h3>
+                        </div>
+                        <p>
+                            Lucha por la libertad corporativa y la independencia 
+                            de los sistemas. Utiliza droides de batalla y 
+                            estrategias avanzadas para vencer.
+                        </p>
+                        <ul class="faction-features">
+                            <li>Ejército de droides</li>
+                            <li>Alianzas corporativas</li>
+                            <li>Tácticas de infiltración</li>
+                        </ul>
+                    </div>
+
+                    <div class="faction-card-detail independent">
+                        <div class="faction-header">
+                            <div class="faction-emblem">⚖️</div>
+                            <h3>INDEPENDIENTES</h3>
+                        </div>
+                        <p>
+                            Mercenarios, contrabandistas y cazarrecompensas que 
+                            trabajan para el mejor postor. Tu lealtad es tuya.
+                        </p>
+                        <ul class="faction-features">
+                            <li>Libertad total de acción</li>
+                            <li>Misiones lucrativas</li>
+                            <li>Alianzas temporales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-section fade-in">
+                <h2 class="section-title">NUESTRA HISTORIA</h2>
+                <div class="story-content">
+                    <p>
+                        Republic Gaming nació de la pasión por el universo Star Wars y el deseo de crear 
+                        una experiencia de roleplay única en español. Desde 2023, hemos estado desarrollando 
+                        un servidor donde la libertad de juego se combina con la estructura narrativa del 
+                        universo Clone Wars.
+                    </p>
+                    <p>
+                        Nuestro objetivo es proporcionar un entorno donde cada jugador pueda crear su propia 
+                        historia dentro del conflicto galáctico, ya sea como un valiente soldado clon, un 
+                        astuto separatista, o un mercenario independiente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Republic Gaming. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Términos</a>
+                <a href="#" class="footer-link">Privacidad</a>
+                <a href="https://discord.gg/kkKsdqJczx" class="footer-link" target="_blank">Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
